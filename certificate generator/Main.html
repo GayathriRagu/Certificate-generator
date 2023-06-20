@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <style>
+                #button{
+    background-color: #fcf7f7;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    border: 2px solid lightcoral;
+    margin: 4px 2px;
+    height: 30px;
+    transition: 0.3s;
+    size: 20px;
+  }
+  #button:hover {
+    background-color: rgb(234, 20, 20);
+    color: white;
+  }
+        </style>
+        <script>
+            function generateCertificate1() 
+            {
+                var name = document.getElementById("name-input").value;
+                var department = document.getElementById("department-input").value;
+                var prize = document.getElementById("prize-input").value;
+                var event = document.getElementById("event-input").value;
+                var date = document.getElementById("date-input").value;
+
+                // Create URL with input values as query parameters
+                var url = "certificate1.html";
+                url += "?name=" + encodeURIComponent(name);
+                url += "&department=" + encodeURIComponent(department);
+                url += "&prize=" + encodeURIComponent(prize);
+                url += "&event=" + encodeURIComponent(event);
+                url += "&date=" + encodeURIComponent(date);
+                // Redirect to certificate page with query parameters
+                window.location.href = url;
+            }
+            function generateCertificate2() 
+            {
+                var name = document.getElementById("name-input").value;
+                
+                var department = document.getElementById("department-input").value;
+                var prize = document.getElementById("prize-input").value;
+                var event = document.getElementById("event-input").value;
+                var date = document.getElementById("date-input").value;
+
+                // Create URL with input values as query parameters
+                var url = "certificate2.html";
+                url += "?name=" + encodeURIComponent(name);
+                url += "&department=" + encodeURIComponent(department);
+                url += "&prize=" + encodeURIComponent(prize);
+                url += "&event=" + encodeURIComponent(event);
+                url += "&date=" + encodeURIComponent(date);
+                // Redirect to certificate page with query parameters
+                window.location.href = url;
+            }
+            function generateCertificate3() 
+            {
+                var name = document.getElementById("name-input").value;
+                
+                var department = document.getElementById("department-input").value;
+                var prize = document.getElementById("prize-input").value;
+                var event = document.getElementById("event-input").value;
+                var date = document.getElementById("date-input").value;
+
+                // Create URL with input values as query parameters
+                var url = "certificate3.html";
+                url += "?name=" + encodeURIComponent(name);
+                url += "&department=" + encodeURIComponent(department);
+                url += "&prize=" + encodeURIComponent(prize);
+                url += "&event=" + encodeURIComponent(event);
+                url += "&date=" + encodeURIComponent(date);
+                // Redirect to certificate page with query parameters
+                window.location.href = url;
+            }
+            function generateCertificate4() 
+            {
+                var name = document.getElementById("name-input").value;
+                
+                var department = document.getElementById("department-input").value;
+                var prize = document.getElementById("prize-input").value;
+                var event = document.getElementById("event-input").value;
+                var date = document.getElementById("date-input").value;
+
+                // Create URL with input values as query parameters
+                var url = "certificate4.html";
+                url += "?name=" + encodeURIComponent(name);
+                url += "&department=" + encodeURIComponent(department);
+                url += "&prize=" + encodeURIComponent(prize);
+                url += "&event=" + encodeURIComponent(event);
+                url += "&date=" + encodeURIComponent(date);
+                // Redirect to certificate page with query parameters
+                window.location.href = url;
+            }
+        </script>
+    </head>
+    <body>
+        <center>
+            <h1><b>Certificate Generator</b></h1><br><br>
+        </center>
+        <label for="name">Enter your name:</label><br>
+        <input type ="text" id="name-input" name="name">
+        <br><br>
+        <label for="department">Enter the Department name:</label><br>
+        <input type="text" id="department-input" name="department">
+        <br><br>
+        <label for="prize">Enter the prize:</label><br>
+        <input type="text" id="prize-input" name="prize">
+        <br><br>
+        <label for="event">Enter the event name:</label><br>
+        <input type="text" id="event-input" name="event">
+        <br><br>
+        <label for="date">Enter the date event held on:</label><br>
+        <input type="date" id="date-input" name="date">
+        <br>
+        <br>
+        <br>
+        <img src="cert1.png" alt="cer1" width="800px" height="400px"><br><br>
+        <button type="button" id="button" onclick="generateCertificate1()">Generate Certificate</button><br><br><br><br><br><br><br>
+        <img src="cert2.png" alt="cer1" width="800px" height="400px"><br><br>
+        <button type="button" id="button" onclick="generateCertificate2()">Generate Certificate</button><br><br><br><br><br><br><br>
+        <img src="cert3.png" alt="cer1" width="800px" height="400px"><br><br>
+        <button type="button" id="button" onclick="generateCertificate3()">Generate Certificate</button><br><br><br><br><br><br><br>
+        <img src="cert4.png" alt="cer1" width="800px" height="400px"><br><br>
+        <button type="button" id="button" onclick="generateCertificate4()">Generate Certificate</button><br><br><br><br><br><br><br>
+    </body>
+</html>

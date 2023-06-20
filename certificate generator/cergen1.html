@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="certicatemodule1.css">
+        <script>
+            var parameters = new URLSearchParams(window.location.search);
+            document.addEventListener("DOMContentLoaded", function() {
+                var element = document.getElementById("name");
+                element.innerHTML = parameters.get("name");
+            });
+            document.addEventListener("DOMContentLoaded", function() {
+                var element = document.getElementById("department");
+                element.innerHTML = parameters.get("department");
+            });
+            document.addEventListener("DOMContentLoaded", function() {
+                var element = document.getElementById("prize");
+                element.innerHTML = parameters.get("prize");
+            });
+            document.addEventListener("DOMContentLoaded", function() {
+                var element = document.getElementById("event");
+                element.innerHTML = parameters.get("event");
+            });
+            document.addEventListener("DOMContentLoaded", function() {
+                var element = document.getElementById("date");
+                element.innerHTML = parameters.get("date");
+            });
+        </script>
+        <style>
+            h1 {text-align: center;}
+            h4 {text-align: center;}
+            p  {text-align: center;}
+            h2 {text-align: center;}
+            h3 {text-align: center;}
+            .pro{
+                margin-left:100px;
+                margin-top: 10px;
+                text-align: left;
+            }
+            .prin{
+                margin-left:400px;
+                margin-bottom:100px ;
+                text-align: left;
+            }
+            body {
+                background-image: url('https://i.pinimg.com/736x/ca/18/49/ca1849f2879a1ddc06db2fe38ea293e7.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+              
+            }
+        </style>
+    </head>
+    <body>
+        <p>
+        <img src="1logo1.jpg" width="100" height="100" hspace="50" align="left">
+        <img src="1logo2.png" alt="ph2" width="100" height="100" hspace="50" align="right">
+        <h1><b>SONA COLLEGE OF TECHNOLOGY</b></h1>
+        <h4></b>SALEM-5</b></h4>
+        <p><i>(An Autonomous Institution)</i></p>
+        <h3><i>CERTIFICATE</i></h3>
+        </p>
+        <br>
+        <br>
+        <h4><b>This is to certify Mr/Mrs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u><span style="font-style: italic;" id="name"></u></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;studying&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u><span style="font-style: italic;" id="department"></span></u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in Sona College Of Technology has participated  <b></h4><br>
+        <h4><b>and won&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u><span style="font-style: italic;" id="prize"></span></u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;place in&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u><span style="font-style: italic;" id="event"></span></u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;event conducted on&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u><span style="font-style: italic;" id="date"></span></u><b>.</h4>
+            <br><br>
+            <h3><i>Congratulations!</i></h3>
+        <div class="left">
+            <p>Programmer Officer</p>
+        </div> 
+        <div class="right">
+            <p>Principal</p>
+        </div>
+    </body>
+</html>

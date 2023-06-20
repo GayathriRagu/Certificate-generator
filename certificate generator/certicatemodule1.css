@@ -1,0 +1,28 @@
+h1 {
+    color : rgb(1, 1, 1);
+}
+h2 {
+    color : rgb(4, 4, 12);
+}
+h3 {
+    color : rgb(1, 1, 6);
+}
+h4 {
+    color : rgb(1, 1, 4);
+}
+p {
+    color : rgb(1, 1, 8);
+}
+pre{
+    color: rgb(1, 1, 10);
+}
+.left {
+    float: left;
+    margin-left: 250px;
+    margin-top: 200px;
+}
+.right {
+    float: right;
+    margin-right: 200px;
+    margin-top: 200px;
+}
